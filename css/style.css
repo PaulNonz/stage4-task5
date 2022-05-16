@@ -9,7 +9,7 @@ body{
     width: 100%;
 }
 
-body p, h1, h2, h3, h4, h5, h6{
+body p, h1, h2, h3, h4, h5, h6, ul{
     font-family:'Manrope', sans-serif;
 }
 
@@ -111,6 +111,10 @@ body .container2{
     font-size: 17px;
 }
 
+body .first-section .ogbeni{
+   /* background-image: url(../img/our-service-img.png); */
+}
+
 body .first-section{
     padding-top: 8.23%;
     height: 680px;
@@ -188,6 +192,27 @@ body .first-section .picture-section .contain img{
    margin-left: 4%;
 }
 
+body .first-section .picture-section .contain #case1{
+    margin-top: -3% !important;
+}
+
+body .first-section #case2{
+    margin-left: 5.6% !important ;
+    text-align: right !important;
+}
+
+body .first-section #case2 #case2-h1{
+    padding: 0 5% 0 0 !important;
+    margin-left: 4% !important;
+}
+
+body .first-section .text-section .text-check .text-0 span{
+    font-size: 30px !important;
+    font-style: italic;
+    padding-left: -7%;
+    color: #717161;
+}
+
 body .first-section .picture-section .contain #imago{
     width: auto; 
     height: 18px; 
@@ -260,14 +285,33 @@ body .second-section{
     padding-bottom: 9.4%; 
 }
 
+body #second-section #mind{
+    margin-left: -0%;
+}
+
 body .second-section .first-text-section{
     width: 50%;
+}
+
+body #second-section #first-text-section h3{
+    font-size: 40px ;
+}
+
+body #second-section #first-text-section h6{
+    font-size: 15px;
+    padding-top: 4%;
+    font-weight: 400;
+    text-align: justify !important;
 }
 
 body .second-section .first-text-section h3{
     font-size: 36px;
     font-weight: 800;
     width: 80%;
+}
+
+body .second-section .first-text-section #mind h5{
+    font-size: 16.5px;
 }
 
 body .second-section .first-text-section h5{
@@ -279,7 +323,14 @@ body .second-section .first-text-section p{
     font-size: 12px;
     font-weight: normal;
     width: 55%;
-    padding-top: 6px;
+}
+
+body .second-section #first-text-section .last-portion{
+    padding-left: 0% !important;
+}
+
+body .second-section #first-text-section .last-portion p{
+    margin-left: -65% !important;
 }
 
 body .second-section .first-text-section .first-portion{
@@ -299,7 +350,7 @@ body .second-section .first-text-section .last-portion p {
 
 body .second-section .first-text-section .last-portion a{
     margin-left: -130px;
-    margin-top: 6px;
+    margin-top: 2px;
 }
 
 body .second-section .second-text-section{
@@ -357,6 +408,23 @@ body .second-section .second-text-section h3{
     line-height: 40px;
     width: 90%;
     padding-bottom: 3%;
+}
+
+body .second-section #second-text-section h3{
+    font-size: 34px;
+}
+
+body .second-section #second-text-section h6{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify !important;
+}
+
+body .second-section #second-text-section p{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center !important;
+    padding: 0 2.6%;
 }
 
 body .second-section .second-text-section input{
@@ -459,6 +527,289 @@ body .fourth-section h3{
     margin-left: 28.5%;
 }
 
+body #fourth-section{
+    padding: 0 15%;
+}
+
+body #fourth-section h3{
+    padding: 0% !important;
+    text-align: center;
+}
+
+body #fourth-section span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 21px;
+}
+
+body #fourth-section .wow{
+    display: flex;
+}
+
+body #fourth-section .card-section{
+    width: 48.5% !important;
+    margin: 0% !important;
+    background-color: white;
+    padding: 0% 0 0% 0;
+    border-radius: 15px;
+    text-align: left;
+}
+
+
+body #fourth-section .card-section1{
+    width: 48.5% !important;
+    margin: 0% !important;
+    background-color: white;
+    padding: 0% 0 0% 0;
+    border-radius: 15px;
+    text-align: left;
+    margin-left: 2% !important;
+}
+
+body #fourth-section .card3{
+    width: auto;
+    text-align: left;
+    margin: 0% !important;
+    padding: 0% !important;
+    display: flex;
+    background-color:#929296;
+    border-radius: 14px 14px 0 0;
+    padding: 2% !important;
+    color: white;
+}
+
+body #fourth-section .card-section .d,
+body #fourth-section .card-section1 .d{
+    position: relative;
+}
+
+body #fourth-section .card-section .card3 .j{
+    background-color:#c5c9c7;
+    border-radius: 50%;
+    background-image: url(../img/mr.3.png);
+    height: 100px;
+    width: 100px;
+    background-size: 80%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+}
+
+
+body #fourth-section .card-section1 .card3 .j{
+    background-color:#c5c9c7;
+    border-radius: 50%;
+    background-image: url(../img/mr.6.JPG);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: 80%;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+}
+
+body #fourth-section .card-section .card3 img,
+body #fourth-section .card-section1 .card3 img{
+    height: 30px;
+    width: auto;
+    border-radius: 4px;
+    position: absolute;
+    top: 70%;
+    left: 74%;
+}
+
+body #fourth-section .card-section .card3 .texter,
+body #fourth-section .card-section1 .card3 .texter{
+    padding-left: 3%;
+}
+
+body #fourth-section .card-section .card3,
+body #fourth-section .card-section1 .card3{
+    word-spacing: 2%;
+}
+
+body #fourth-section .card-section .card3 p,
+body #fourth-section .card-section1 .card3 p{
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 1.7%;
+    padding-left: 2%;
+}
+
+body #fourth-section .card-section .card3 h6,
+body #fourth-section .card-section1 .card3 h6{
+    padding-left: 1.7%;
+}
+
+body #fourth-section .card-section .card3 .stars,
+body #fourth-section .card-section1 .card3 .stars{
+    display: flex;
+}
+
+body #fourth-section .card-section .card3 .texter .stars img,
+body #fourth-section .card-section1 .card3 .texter .stars img{
+    height: 12px !important;
+    width: auto !important;
+    display: flex;
+    position: relative !important;
+    /* top: 8%; */
+    left: 0%;
+    margin-top: 3%;
+    padding-left: 2%;
+}
+
+body #fourth-section .card-section .shii,
+body #fourth-section .card-section .shiii,
+body #fourth-section .card-section1 .shii,
+body #fourth-section .card-section1 .shiii1{
+    padding: 0 4%;
+}
+
+body #fourth-section .card-section #shii,
+body #fourth-section .card-section1 #shii{
+    display: flex !important;
+    width: 100%;
+    padding: 0%;
+}
+
+body #fourth-section .card-section #shii h6,
+body #fourth-section .card-section1 #shii h6{
+    width: 300px;
+    font-size: 10px;
+    margin-left: 126%;
+    color: #929296;
+}
+
+body #fourth-section .card-section #shii .division{
+    margin: 0 4%;
+    background-image: url(../img/pearl.JPG);
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+}
+
+body #fourth-section .card-section1 #shii .division{
+    margin: 0 4%;
+    background-image: url(../img/mr.4.JPG);
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+}
+
+body #fourth-section .card-section #shii .division img,
+body #fourth-section .card-section1 #shii .division img{
+    width: 390%;
+    height: auto;
+    margin-left: 103%;
+    margin-top: 1.4%;
+    position: relative;
+}
+
+body #fourth-section .card-section #shii .division p,
+body #fourth-section .card-section1 #shii .division p{
+    font-size: 11px;
+    width: 300%;
+    position: absolute;
+    top: 35%;
+    left: 160%;
+}
+
+body #fourth-section .card-section .shii ul,
+body #fourth-section .card-section1 .shii ul{
+    padding-left: 3.5%;
+    padding-top: 2%;
+    font-size: 13.5px !important;
+    font-weight: 300;
+}
+
+body #fourth-section .card-section .shii h5,
+body #fourth-section .card-section1 .shii h5{
+    font-size: 15px !important;
+}
+
+body #fourth-section .card-section .shiii,
+body #fourth-section .card-section1 .shiii{
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 5% 0;
+    background-color:#a8a8b3be;
+    border-radius:  0 0 14px 14px;
+    padding: 3% 2.1% ;
+    text-align: right;
+}
+
+body #fourth-section .card-section .shiii input,
+body #fourth-section .card-section1 .shiii input{
+    width: 100%;
+    padding: 4% 2%;
+    border: none;
+    border-radius: 4px;
+}
+
+body #fourth-section .card-section .shiii button span,
+body #fourth-section .card-section1 .shiii button span{
+    font-size: 12px !important;
+    padding: 9% 1%;
+    width: 100%;
+    font-style: normal;
+    word-spacing: 0%;
+}
+
+body #fourth-section .card-section .shiii button,
+body #fourth-section .card-section1 .shiii button{
+    width: 28%;
+    border-radius: 9px;
+    margin-top: 3%;
+    border: none;
+    background-color: #ff6433!important;
+    color: white;
+}
+
+body #fourth-section .card-section .shiii button:hover,
+body #fourth-section .card-section1 .shiii button:hover{
+    box-shadow: 0 4px 6px 0 rgba(255, 66, 66, 0.6);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #e44b1c !important;
+}
+
+body #fourth-section .card-section .shiii button span,
+body #fourth-section .card-section1 .shiii button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+body #fourth-section .card-section .shiii button span:after,
+body #fourth-section .card-section1 .shiii button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.7s;
+}
+
+button:hover span{
+    padding-right: 8px;
+    color: rgb(210, 245, 190);
+}
+
+
+
+
+
+
+
 .card-section{
     padding-top: 0.5%;
     padding-left: 5%;
@@ -491,7 +842,6 @@ body .fourth-section h3{
 }
 
 .card img{
-    /* background-image: url('../img/diagnostics.png'), url('../img/Call.png'); */
     opacity: 0, 100 ;
     background-repeat: no-repeat;
     background-image: cover;
@@ -499,7 +849,10 @@ body .fourth-section h3{
 
 .card:hover img{
     fill: #ff0000 !important;
-    opacity: 0.7;
+    opacity: 0.9;
+    width: auto;
+    height: 46px;
+    transition: 0.5s;
 }
 
 .card img:hover{
@@ -531,6 +884,23 @@ body .fourth-section h3{
 
 .container1{
     padding-top: 2% ;
+}
+
+
+body .fourth-section #special{
+    display: flex;
+    margin: 3% 0;
+}
+
+body .fourth-section #special img{
+    height: 38px;
+    width: auto;
+}
+
+body .fourth-section #special p{
+    word-spacing: 2px;
+    margin-top: 1%;
+    font-style: italic;
 }
 
 body .fourth-section .img-portion{
@@ -821,7 +1191,7 @@ body .eight-section #two p{
 }
 
 .footer{
-    padding-bottom: 5%;!important;
+    padding-bottom: 5% !important;
     padding-top: 9.4%;
     background-color: #1e1b1b;
 }
@@ -1043,6 +1413,22 @@ body .card2 #sci{
     body .first-section .text-section{
         padding-top: 0px;
         width: 50%;
+    }
+
+              
+    body .second-section #first-text-section .last-portion{
+        padding-left: 0% !important;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    body .second-section #first-text-section .last-portion p{
+        margin-left: -32% !important;
+    }
+
+    body .second-section #first-text-section .last-portion img{
+        margin-left: -150% !important;
+        padding: 0% !important;
     }
 
     body .first-section .text-section h1{
@@ -1445,6 +1831,11 @@ body .card2 #sci{
         padding: 0 10%;
     }
 
+    
+body #fourth-section .wow{
+    display: list-item;
+}
+
     body .first-section .text-section h1{
         font-size: 33px !important;
         line-height: 41px;
@@ -1480,7 +1871,37 @@ body .card2 #sci{
         width: auto !important;
         height: 3px !important;
     }
+
+            
+    body .second-section #first-text-section .last-portion{
+        padding-left: 0% !important;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    body .second-section #first-text-section .last-portion p{
+        margin-left: -44% !important;
+        width: 48%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    body .second-section #first-text-section .last-portion img{
+        margin-left: -20% !important;
+        padding: 0% !important;
+    }
       
+    body #fourth-section .card-section{
+        width: 80% !important;
+    }
+
+    body #fourth-section .card-section1{
+        width: 80% !important;
+        margin-left: 0% !important;
+        margin-top: 2% !important;
+    }
+
+
     body .second-section{
         padding: 6% 10%;
     }
@@ -1525,6 +1946,11 @@ body .card2 #sci{
         margin-top: 4.5%;
     }
   
+    body #fourth-section{
+        padding: 0 10%;
+    }
+
+
     body .third-section{
         padding: 6% 10%;
     }
@@ -1737,6 +2163,16 @@ body .card2 #sci{
         display: flex;
     }
     
+    body #fourth-section .card-section{
+        width: 100% !important;
+    }
+
+    body #fourth-section .card-section1{
+        width: 100% !important;
+        margin-left: 0% !important;
+        margin-top: 2% !important;
+    }
+
     body .fifth-section #ls{
         display: none;
     }
@@ -1748,6 +2184,25 @@ body .card2 #sci{
     body .footer .left-text .a1{
         display: none;
     }
+
+    body #fourth-section .card-section .shiii button,
+    body #fourth-section .card-section1 .shiii button{
+    width: 35%;
+    border-radius: 9px !important;
+    margin-top: 3%;
+    border: none;
+    background-color: #ff6433!important;
+    color: white;
+    padding: 2% !important;
+    }
+
+    body #fourth-section .card-section .shiii span,
+    body #fourth-section .card-section1 .shiii span{
+        padding: 6% 0% !important;
+        margin: 0% !important;
+    }
+
+
 }
 
 @media only screen and (max-width: 425px ){
@@ -1804,7 +2259,15 @@ body .card2 #sci{
         background-image: url(../img/first-image.png);
         height: 50%;
         width: 100%;
-        background-size: 110%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    body .first-section .ogbeni{
+        background-image: url(../img/our-service-img.png);
+        height: 50%;
+        width: 100%;
+        background-size: 100%;
         background-repeat: no-repeat;
     }
     
@@ -1830,10 +2293,47 @@ body .card2 #sci{
         margin-top: 0% !important;
     }
 
+    body .second-section #first-text-section .last-portion{
+        padding-left: 0% !important;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    body .second-section #first-text-section .last-portion p{
+        margin-left: -2.9% !important;
+        width: 45%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    body .second-section #first-text-section .last-portion img{
+        margin-left: -40% !important;
+        padding: 0% !important;
+    }
+    
+
     body .first-section .text-0{
         margin-left: 0% !important;
         padding-top: 3.5% !important;
         padding-right: 5% !important;
+    }
+
+    body .first-section #case2{
+        margin: 4.5% 0 -10% 0 !important;
+        padding: 0% !important;
+        text-align: center !important;
+    }
+
+    body .first-section #case2-h1{
+        margin: 0% 3% 0 0  !important;
+        padding: 0% !important; 
+        text-align: center !important;
+        width: 100%;
+    }
+
+    body .first-section #case2 #text-0{
+        margin: 5% !important;
+        margin-right: 15% !important;
     }
 
     body .first-section .text-check img{
@@ -1896,7 +2396,6 @@ body .card2 #sci{
         margin: 0% !important;
     }
 
-
     body .second-section .first-text-section .last-portion img{
         margin-left: -88%;
     }
@@ -1906,7 +2405,6 @@ body .card2 #sci{
     }
 
     body .second-section .button{
-        background-color: orange;
         text-align: center;
     }
 
@@ -2006,6 +2504,19 @@ body .card2 #sci{
         font-size: 11px;
         text-align: center;
         margin-left: 48% !important;
+    }
+
+    body #fourth-section .card-section .card3 p,
+    body #fourth-section .card-section1 .card3 p{
+        font-size: 12px;
+        font-weight: lighter;
+        margin-top: 1.7%;
+        padding-left: 2%;
+    }
+
+    body .fourth-section .card-section .texter  p,
+    body .fourth-section .card-section1 .texter  p{
+        font-size: 9px !important;
     }
 
     body .fourth-section .last-portion{
@@ -2159,12 +2670,35 @@ body .card2 #sci{
         margin: 0 5% 0 0!important;
         width: auto;
     } 
+
+    body .eight-section #one #shift-am{
+        text-align: center !important;
+    }
 }
 
 @media only screen and (max-width: 375px ){
     body .second-section .first-text-section .last-portion{
         margin-left:  2% !important;
     }
+
+    body .second-section #first-text-section .last-portion{
+        padding-left: 0% !important;
+        margin-left: 0% !important;
+        width: 100%;
+    }
+
+    body .second-section #first-text-section .last-portion p{
+        margin-left: -2.9% !important;
+        width: 45%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    body .second-section #first-text-section .last-portion img{
+        margin-left: -40% !important;
+        padding: 0% !important;
+    }
+    
 
     body .third-section .second-portion hr{
         margin-top: 6px !important;
@@ -2187,6 +2721,10 @@ body .card2 #sci{
     body .fourth-section .img-portion h3{
         font-size: 12px;
         width: 50%;
+    }
+
+    body .fourth-section .card-section .texter .stars p{
+        font-size: 9px !important;
     }
 
     body .fourth-section .last-portion .one-p{
@@ -2236,11 +2774,23 @@ body .card2 #sci{
     }   
 }
 
+@media only screen and (max-width: 371px) {
+    body .fourth-section .card-section .texter .stars #none{
+        display: none;
+    }
+    
+}
 
 @media only screen and (max-width: 320px ){
 
     body .navbar a{
         margin-right: -3% !important;
+    }
+
+    body .first-section #case2{
+        margin: -8.5% 0 -100% 0 !important;
+        padding: 0% !important;
+        text-align: center !important;
     }
 
     body .third-section .second-portion hr{
@@ -2249,11 +2799,26 @@ body .card2 #sci{
         margin-left: -13% !important;
     }
 
+    body .second-section #first-text-section .last-portion{
+        padding-left: 0% !important;
+        margin-left: 1% !important;
+        width: 100%;
+    }
+
     body .first-section .text-check img{
         width: 33px !important;
         margin-left: 0% !important;
         margin-right: 100px !important;
         margin-top: 2% !important;
+    }
+
+    body .fourth-section .card-section .texter .stars #none,
+    body .fourth-section .card-section1 .texter .stars #none{
+        display: none;
+    }
+
+    body .fourth-section .card-section .shii .division {
+        background-color: red;
     }
 
     body .first-section .text-section{
@@ -2307,6 +2872,15 @@ body .card2 #sci{
         text-align: center;
         padding-left: 0% !important;
     }
+
+    body #fourth-section .card-section #shii .division img,
+    body #fourth-section .card-section1 #shii .division img{
+    width: 367%;
+    height: auto;
+    margin-left: 103%;
+    margin-top: 2.2% !important;
+    position: relative;
+}
 }
 
 
